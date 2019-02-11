@@ -1,0 +1,19 @@
+displayErrorDetails: true
+addContentLengthHeader: false
+logger:
+  name: app
+  path: /data/logs/dev.log
+  level: DEBUG
+oss:
+  access_key_id: LTAIZfqhFA5HrEmU
+  access_key_secret: 3hQVII5RGlvgaUrrYelFQPO4bBG4ZK
+  end_point: oss-ap-southeast-1-internal.aliyuncs.com
+  bucket: hw-img
+  domain: hw-img.oss-ap-southeast-1-internal.aliyuncs.com
+downloader:
+  save_path: /data/download
+task:
+  server:
+    worker_num: 520
+secret: r3t5@43f%!^dd
+proxies: '10.249.1.208:8888','10.249.1.209:8888','10.249.1.210:8888','10.249.1.211:8888','10.249.1.212:8888','10.249.1.215:8888','10.249.1.216:8888','10.249.1.217:8888','10.249.1.218:8888','10.249.1.219:8888']

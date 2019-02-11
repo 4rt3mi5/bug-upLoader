@@ -1,0 +1,9 @@
+stages:
+- build
+构建镜像:
+  stage: build
+  script:
+  - ssh webid@10.10.12.65 "build"
+  - ssh root@47.74.255.217 "docker pull hw-hub.bbobo.com/${CI_PUSH_HW_TAG}:stable && cd ~/docker && docker-compose up -d"
+  only:
+  - /^stable-.*$/

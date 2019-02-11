@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Created by .ignore support plugin (hsz.mobi)
+/var/*
+!var/.gitkeep
+/vendor/
+.idea
+/crontab/run-test.php
+/app/config/config.yml
+/tests/test.php
+/test.php
